@@ -25,7 +25,7 @@ False or False or False or False or True #True
 
 # The number of seconds in one day
 60 * 60 * 24 #86400
-
+'''
 The area of a circle with a diameter of 12
 45 degrees to radians
 The remainder when you divide 123456789 by 123
