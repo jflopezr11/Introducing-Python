@@ -26,26 +26,43 @@ False or False or False or False or True #True
 # The number of seconds in one day
 60 * 60 * 24 #86400
 
-The area of a circle with a diameter of 12
-45 degrees to radians
-The remainder when you divide 123456789 by 123
-Infinity divided by infinity
-(Hint: you may need to import the math module for some of the above) 
- 
+# The area of a circle with a diameter of 12 A = 1/41πd^2
+import math
 
-4. Given the following variables
+area = 1/4 * math.pi*12**2 
+
+print(area)
+
+#45 degrees to radians
+math.radians(45)
+
+#The remainder when you divide 123456789 by 123
+1234567 % 123
+
+#Infinity divided by infinity
+#(Hint: you may need to import the math module for some of the above) 
+
+import math 
+math.inf / math.inf
+
+#4. Given the following variables
 
 price = 4.99
 qty = 6
 shipping = 10.00
 sales_tax = 0.09
-Write two expressions and the results for:
+#Write two expressions and the results for:
 
+'''
 Just the total (don't include shipping or the tax)
 Total with shipping and tax (note that the shipping fee is not included in the tax calculation)
 Hint: use the round() to show the result with 2 significant places
- 
+'''
+price * qty
 
+round((price * qty) * (1 + sales_tax) + shipping), 2) 
+
+'''
 5.  Write Boolean expressions for the following
 
 n is a number that is greater than 0 and is not an odd number
