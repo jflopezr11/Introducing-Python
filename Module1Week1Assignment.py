@@ -25,9 +25,19 @@ False or False or False or False or True #True
 
 # The number of seconds in one day
 60 * 60 * 24 #86400
+<<<<<<< HEAD
 
 # The area of a circle with a diameter of 12 A = 1/41πd^2
 import math
+=======
+'''
+The area of a circle with a diameter of 12
+45 degrees to radians
+The remainder when you divide 123456789 by 123
+Infinity divided by infinity
+(Hint: you may need to import the math module for some of the above) 
+ 
+>>>>>>> 36c84335b9b36f9f3d5e89e2330fb9b29c23e643
 
 area = 1/4 * math.pi*12**2 
 
