@@ -78,11 +78,33 @@ Write code to count the number of odd numbers
 Write code to count the total size mylist
 Print the percentage of odd numbers in the list. This should be an integer between 0 and 100 (Hint: use round() or int() to convert a float to an integer)
 '''
+#write code to a list of only the odd numbers
 
 mylist = [1, 20, 33, 42, 54, 66, 81, 101]
 odds = []
+'''
 for i in mylist: 
     if i % 2 == 1 :
         odds.append(i)
-    print(i)
+    print(odds)
+'''
+# Write code to count the number of odd numbers
+
+for j in mylist: 
+    if j % 2 == 1 :
+        odds.append(j)
+    print(odds)
+    print(len(odds))
+
+# Write code to count the total size mylist
+count = 0 
+
+for x in mylist:
+    count = count+1
+
+print(count)
+
+
+#Print the percentage of odd numbers in the list. This should be an integer between 0 and 100 (Hint: use round() or int() to convert a float to an integer)
+print(round(len(odds) / len(mylist) * 100, 0)) 
 
